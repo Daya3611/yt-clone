@@ -8,7 +8,7 @@ function VideoDetails() {
   const {selectedVideoDetails, setSelectedVideoDetails} = useState();
   const {channelData,setChannelData} = useState();
   const {comments,setComments} = useState();
-  // const {relatedVideos,setRelatedVideos} = useState();
+  
 
   const fetchSelectedVideoDetails = async() =>{
     setloading(true);
@@ -165,7 +165,7 @@ function VideoDetails() {
     // </div>
     // </div>
     <div>
-      
+
     </div>
   )
 }
