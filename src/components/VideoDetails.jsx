@@ -48,8 +48,13 @@ function VideoDetails() {
     
  
    useEffect(() =>{
-     fetchChannelData();
-   },[selectedVideoDetails])
+    fetchChannelData();
+   },[selectedVideoDetails]);
+
+
+      
+
+
 
   return (
     // <div>
